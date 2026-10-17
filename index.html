@@ -1,15 +1,14 @@
 <!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Строй-группа: учебный макет</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts-TenorSans-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts-Jost-cyrillic.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="fonts.css?v=1">
 <link rel="stylesheet" href="styles.css?v=17"><link rel="stylesheet" href="quiet.css?v=17"><link rel="stylesheet" href="blend.css?v=21"><link rel="stylesheet" href="perf.css?v=23"><link rel="stylesheet" href="menu.css?v=24"><noscript><style>h1,h2{visibility:visible}.hero2 .heroText p,.fu{opacity:1!important;transform:none!important}.ch{opacity:1!important;transform:none!important;filter:none!important}</style></noscript></head><body>
 <header><a class="logo" href="index.html">Строй·Группа</a>
 <nav class="main"><a href="index.html" class="on">Главная</a><a href="services.html">Услуги и цены</a><a href="projects.html">Объекты</a></nav>
 <span class="mock">учебный макет</span><button class="burger" type="button" aria-label="Меню" onclick="document.body.classList.toggle('mo')"><span></span><span></span></button></header>
 <nav class="mmenu"><a href="index.html" class="on" onclick="document.body.classList.remove('mo')">Главная</a><a href="services.html" onclick="document.body.classList.remove('mo')">Услуги и цены</a><a href="projects.html" onclick="document.body.classList.remove('mo')">Объекты</a><a class="cta2" href="#contacts" onclick="document.body.classList.remove('mo')">Оставить заявку</a></nav>
 
-<div class="hero2 gr"><img data-px src="img-p01.jpg" alt="Жилой комплекс ночью"><div class="shade2"></div>
+<div class="hero2 gr"><img decoding="async" data-px src="img-p01.jpg" alt="Жилой комплекс ночью"><div class="shade2"></div>
  <div class="heroText" id="ht"><span class="badge">Группа строительных компаний</span>
   <h1>Монолитное строительство под ключ</h1>
   <p>Проектирование, монолитный каркас, генподряд и недвижимость в одной команде.</p>
@@ -17,7 +16,7 @@
  <div class="scroll">листайте вниз</div>
 </div>
 
-<div class="band" data-tone="cool"><img data-px src="img-q02.jpg" alt="Тёмное стекло и тёплый свет"><div class="in"><div class="tagm" style="margin-bottom:14px">Подход</div><h2>От чертежа до сдачи ключей</h2></div></div>
+<div class="band" data-tone="cool"><img decoding="async" data-px loading="lazy" src="img-q02.jpg" alt="Тёмное стекло и тёплый свет"><div class="in"><div class="tagm" style="margin-bottom:14px">Подход</div><h2>От чертежа до сдачи ключей</h2></div></div>
 
 <section class="s" id="process"><div class="lab tagm">Как идёт стройка</div><h2>Пять этапов</h2>
  <p class="sub" style="margin:18px 0 40px">От первого эскиза до сдачи ключей. Фото иллюстративные, для вашего проекта здесь будут ваши объекты.</p>
@@ -30,11 +29,11 @@
 <a class="gc a" href="services.html"><div class="ic"><svg viewBox="0 0 24 24"><path d="M3 21l3-1 12-12-2-2L4 18z"/><path d="M14 6l4 4"/></svg></div><h3>Проектирование</h3><p>Архитектура, конструктив и инженерия в одном проекте.</p><div class="pr">от 1 800 ₽/м²<small>пример цены</small></div><div class="go">Подробнее →</div></a><a class="gc b" href="services.html"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></div><h3>Монолитный каркас</h3><p>Фундаменты, колонны, перекрытия и паркинги.</p><div class="pr">от 24 000 ₽/м²<small>пример цены</small></div><div class="go">Подробнее →</div></a><a class="gc c" href="services.html"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg></div><h3>Генподряд</h3><p>Управляем всеми этапами: от котлована до сдачи.</p><div class="pr">от 62 000 ₽/м²<small>пример цены</small></div><div class="go">Подробнее →</div></a>
  </div><p style="margin-top:34px"><a class="btn ghost" href="services.html">Все услуги и цены</a></p></section>
 
-<div class="band"><img data-px loading="lazy" src="img-p05.jpg" alt="Башенные краны в сумерках"><div class="in"><div class="tagm" style="margin-bottom:14px">Стройка</div><h2>Ведём объект на каждом этапе</h2></div></div>
+<div class="band"><img decoding="async" data-px loading="lazy" src="img-p05.jpg" alt="Башенные краны в сумерках"><div class="in"><div class="tagm" style="margin-bottom:14px">Стройка</div><h2>Ведём объект на каждом этапе</h2></div></div>
 
 <section class="s" id="obj"><div class="lab tagm">Объекты</div><h2>Избранные проекты</h2><p class="sub" style="margin:18px 0 40px">Объекты и фотографии для примера карточек.</p>
  <div class="cards">
-<div class="card"><div class="ph"><img loading="lazy" decoding="async" src="img-s-q13.jpg" alt=""></div><div class="in"><div class="meta"><span>Монолит</span><span>пример</span></div><h3>Здание с тёплой подсветкой</h3></div></div><div class="card"><div class="ph"><img loading="lazy" decoding="async" src="img-s-x3.jpg" alt=""></div><div class="in"><div class="meta"><span>Генподряд</span><span>пример</span></div><h3>Бетонный жилой дом</h3></div></div><div class="card"><div class="ph"><img loading="lazy" decoding="async" src="img-s-x2.jpg" alt=""></div><div class="in"><div class="meta"><span>Проектирование</span><span>пример</span></div><h3>Бетон и дерево</h3></div></div>
+<div class="card"><div class="ph"><img loading="lazy" decoding="async" src="img-s-q13.jpg" alt=""></div><div class="in"><div class="meta"><span>Монолит</span><span>пример</span></div><h3>Здание с тёплой подсветкой</h3></div></div><div class="card"><div class="ph"><img loading="lazy" decoding="async" src="img-s-q06.jpg" alt=""></div><div class="in"><div class="meta"><span>Генподряд</span><span>пример</span></div><h3>Дом с террасой и бассейном</h3></div></div><div class="card"><div class="ph"><img loading="lazy" decoding="async" src="img-s-x2.jpg" alt=""></div><div class="in"><div class="meta"><span>Проектирование</span><span>пример</span></div><h3>Бетон и дерево</h3></div></div>
  </div><p style="margin-top:30px"><a class="btn ghost" href="projects.html">Все объекты</a></p></section>
 
 <section class="s" id="contacts">
@@ -46,7 +45,7 @@
 <footer><div class="cols">
  <div><b>Строй·Группа</b>Монолитное строительство, проектирование, генподряд, недвижимость.<br><br>Учебный макет DEVELOV. Названия, цены и данные вымышлены, это пример для показа, а не сайт реальной компании.</div>
  <div><b>Контакты</b>[телефон]<br>[почта]<br>[адрес офиса]</div>
- <div><b>Фото</b>Unsplash: Valentin, V. Melnyk, P. Candelo, I. Savelev, EJ Yao, J. James, H. Nakashima, K. Nauwelaerts, S. Uzzaman, P. Meier, L. Kepner, famingjia inventor, S. Schuster, Y. C. Schulze, C. Badran, J. Brooks, A. Popov, aahubs, lucabravo, we_the_royal, etienneblg, shotbyjf, geo_bar, vez02.<br>3D-анимация: DEVELOV.</div>
+ <div><b>Фото</b>Unsplash: Valentin, V. Melnyk, P. Candelo, I. Savelev, EJ Yao, J. James, H. Nakashima, K. Nauwelaerts, S. Uzzaman, P. Meier, L. Kepner, famingjia inventor, S. Schuster, Y. C. Schulze, C. Badran, J. Brooks, R. Nickson, aahubs, lucabravo, we_the_royal, etienneblg, shotbyjf, geo_bar, vez02.<br>3D-анимация: DEVELOV.</div>
 </div></footer>
 <nav id="bar2"><a href="#contacts">Заявка</a><a href="#">WhatsApp</a><a href="#">Telegram</a></nav>
 <script src="main.js?v=24"></script><script src="reveal.js?v=17"></script></body></html>
